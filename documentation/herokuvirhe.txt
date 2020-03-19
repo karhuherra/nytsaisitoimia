@@ -1,0 +1,52 @@
+kaikarhu@lx9-fuxi023:~/aineopintojenharjoitustyo/tyoaikaseuranta$ git push heroku master
+Counting objects: 58, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (58/58), 10.96 KiB | 3.65 MiB/s, done.
+Total 58 (delta 17), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Python app detected
+remote: -----> Installing python-3.6.10
+remote: -----> Installing pip
+remote: -----> Installing SQLite3
+remote: Sqlite3 successfully installed.
+remote: -----> Installing requirements with pip
+remote:        Collecting alabaster==0.7.8
+remote:          Downloading alabaster-0.7.8-py2.py3-none-any.whl (27 kB)
+remote:        Collecting ansible==2.9.6
+remote:          Downloading ansible-2.9.6.tar.gz (14.2 MB)
+remote:        Collecting apptools==4.3.0
+remote:          Downloading apptools-4.3.0.tar.gz (291 kB)
+remote:        Collecting asn1crypto==0.24.0
+remote:          Downloading asn1crypto-0.24.0-py2.py3-none-any.whl (101 kB)
+remote:        Collecting astroid==1.6.0
+remote:          Downloading astroid-1.6.0-py2.py3-none-any.whl (288 kB)
+remote:        Collecting attrs==17.4.0
+remote:          Downloading attrs-17.4.0-py2.py3-none-any.whl (31 kB)
+remote:        Collecting autobahn==17.10.1
+remote:          Downloading autobahn-17.10.1-py2.py3-none-any.whl (283 kB)
+remote:        Collecting Automat==0.6.0
+remote:          Downloading Automat-0.6.0-py2.py3-none-any.whl (35 kB)
+remote:        Collecting Babel==2.4.0
+remote:          Downloading Babel-2.4.0-py2.py3-none-any.whl (6.8 MB)
+remote:        Collecting backports-abc==0.5
+remote:          Downloading backports_abc-0.5-py2.py3-none-any.whl (5.2 kB)
+remote:        Collecting backports.functools-lru-cache==1.4
+remote:          Downloading backports.functools_lru_cache-1.4-py2.py3-none-any.whl (6.0 kB)
+remote:        Collecting backports.shutil-get-terminal-size==1.0.0
+remote:          Downloading backports.shutil_get_terminal_size-1.0.0-py2.py3-none-any.whl (6.5 kB)
+remote:        ERROR: Could not find a version that satisfies the requirement basemap==1.1.0 (from -r /tmp/build_3c6b134b6cfc71f9a4330798d72c8858/requirements.txt (line 13)) (from versions: none)
+remote:        ERROR: No matching distribution found for basemap==1.1.0 (from -r /tmp/build_3c6b134b6cfc71f9a4330798d72c8858/requirements.txt (line 13))
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to tsoha-tyoaikaseuranta.
+remote: 
+To https://git.heroku.com/tsoha-tyoaikaseuranta.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/tsoha-tyoaikaseuranta.git'
+
