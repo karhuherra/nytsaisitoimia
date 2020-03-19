@@ -17,6 +17,9 @@ remote:  !     Push rejected, failed to compile Python app.
 
 Olen kokeillut poistaa kyseisen rivin requirments.txt tiedostostosta, mutta sama viesti tulee silti
 
+## Linkki sovellukseen Herokussa
+[Heroku](https://git.heroku.com/tsoha-tyoaikaseuranta.git)
+
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
 
