@@ -5,6 +5,10 @@ Henkilölle voidaan lisätä projekteja missä hän on osallisena joka päällik
 rivimiehenä. Henkilö voi lisätä itselleen työaikaa ja katsella omaa mennyttä työmääräänsä. Mikäli hän on jonkin projektin päällikkö hänellä on myös 
 mahdollisuus nähdä siitä kaikki.
 
+# Työ tällä hetkellä
+Tällä hetkell sovelluksessa pystytään lisäämään työntekijöitä ja projekteja. Projektit voidaan muuttaa valmiiksi ja työntekijöiden nimeksi voidaan muuttaa Sauli Niinisto. 
+Molempien ryhmien listaaminen onnistuu ja verkkosovelluksessa on helppo liikkua pienen valikon avulla.
+
 ## Ongelmia työssä
 Saan paikallisesti tällä hetkelle sen mitä olen tehnyt toimimaan, mutta homma ei suostu siirtymään Herokuun.
 
