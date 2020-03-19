@@ -12,7 +12,9 @@ Molempien ryhmien listaaminen onnistuu ja verkkosovelluksessa on helppo liikkua 
 ## Ongelmia työssä
 Saan paikallisesti tällä hetkelle sen mitä olen tehnyt toimimaan, mutta homma ei suostu siirtymään Herokuun. Antaa koodiksi:
 remote:        ERROR: Could not find a version that satisfies the requirement basemap==1.1.0 (from -r /tmp/build_46b297c42aecc98885166e1d9f2f8437/requirements.txt (line 13)) (from versions: none)
+
 remote:        ERROR: No matching distribution found for basemap==1.1.0 (from -r /tmp/build_46b297c42aecc98885166e1d9f2f8437/requirements.txt (line 13))
+
 remote:  !     Push rejected, failed to compile Python app.
 
 Olen kokeillut poistaa kyseisen rivin requirments.txt tiedostostosta, mutta sama viesti tulee silti
