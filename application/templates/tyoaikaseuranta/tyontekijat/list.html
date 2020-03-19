@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <table>
+    <tr>
+      <th>id</th>
+      <th>nimi</th>
+    </tr>
+    {% for tyontekijat in tyontekijat %}
+    <tr>
+      <td>{{ tyontekijat.id }}</td>
+      <td>{{ tyontekijat.nimi }}</td>
+      <td>
+        <form method"POST" action="{{ url_for('tyontekijat_muuta_nimi', tyontekija_id=tyontekijat.id) }}">
+	  <input type="submit" value="Vaihda nimi Sauli Niinistöksi"/>
+	</form>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

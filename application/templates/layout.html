@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>tyoaikaseuranta</title>
+  </head>
+    
+    <body>
+      <ul>
+	<li><a href="{{ url_for('tyontekijat_index') }}">Listaa työntekijät</a></li>
+	<li><a href="{{ url_for('tyontekijat_form') }}">Lisää työntekijä</a></li>
+        <li><a href="{{ url_for('projektit_index') }}">Listaa projektit</a></li>
+        <li><a href="{{ url_for('projektit_form') }}">Lisää projekti</a></li>
+      </ul>
+
+  <body>
+    {% block body %}
+      <p>
+        Content.
+      </p>
+    {% endblock %}
+  </body>
+</html>
