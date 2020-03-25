@@ -14,7 +14,7 @@ Saan paikallisesti tällä hetkelle sen mitä olen tehnyt toimimaan, mutta homma
 Olen kokeillut poistaa kyseisen rivin requirments.txt tiedostostosta, mutta sama viesti tulee silti
 
 ## Linkki sovellukseen Herokussa
-[Heroku](https://git.heroku.com/tsoha-tyoaikaseuranta.git)
+[Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/)
 
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
