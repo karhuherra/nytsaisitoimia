@@ -14,13 +14,16 @@ projektipäällikkö on liitetty suoraan projektiin kirjautumisen perusteella. P
 
 ## Linkki sovellukseen Herokussa
 [Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/)
+
 Testitunnus:
+
 käyttäjä:sauli
+
 salasana:niinisto
 
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
 
 ### linkki tietokantakaavioon
-[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.sql)
+[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.PNG)
 
