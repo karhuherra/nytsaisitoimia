@@ -6,12 +6,14 @@
       <th>id</th>
       <th>nimi</th>
       <th>valmis</th>
+      <th>päällikön id</th>
     </tr>
     {% for projektit in projektit %}
     <tr>
       <td>{{ projektit.id }}</td>
       <td>{{ projektit.nimi }}</td>
       <td>{{ projektit.valmis }}</td>
+      <td>{{ projektit.account_id }}</td>
       <td>
         <form method"POST" action="{{ url_for('projektit_aseta_valmiiksi', projekti_id=projektit.id) }}">
           <input type="submit" value="Aseta valmiiksi!"/>
