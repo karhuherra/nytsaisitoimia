@@ -1,6 +1,10 @@
 #Userstory
 
-1. Minä käyttäjänä haluan pitää kirjaa työntekijöistä. Pystyn hyvin sovelluksessa lisäämään työntekijöitä ja jos suuri johtaja haluaa, että työntekijä muuttaa nimensä omakseen niin se onnistuu.
-2. Voin käyttäjänä sovelluksessa pitää kirjaa projekteista ja siitä ovatko ne valmiita.
-3. Kun pidän kirjaa projekteista ja työntekijöistä pystyn helposti liikkumaan sovelluksessa eri ominaisuuksien välillä koska sivun yläreunassa on valikko, jossa linkit listauksiin sekä uusien projektien tai työntekijöiden lisäyksestä.
-
+1. Minä käyttäjänä haluan kirjauta palveluun ja se onnistuu yläreunassa olevalla kirjaudu linkillä.
+2. Minä käyttäjänä haluan kirjauta palvelusta ulos ja se onnistuu yläreunassa olevalla linkillä.
+3. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta.
+4. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta.
+5. Kirjautuneen voin lisätä itselleni työaikaa tunteina (desimaali, vähintään 1h).
+6. Kirjautuneena voin lisätä sovellukseen projekteja, joissa olen projektipäällikkönä.
+7. Voin asettaa projektit valmiiksi kun olen kirjautuneena sovellukseen.
+8. Yläreunassa olevalla linkkivalikolla voin liikkua eri ominaisuuksien välillä helposti.

@@ -6,15 +6,17 @@ rivimiehenä. Henkilö voi lisätä itselleen työaikaa ja katsella omaa mennytt
 mahdollisuus nähdä siitä kaikki.
 
 # Työ tällä hetkellä
-Tällä hetkell sovelluksessa pystytään lisäämään työntekijöitä ja projekteja. Projektit voidaan muuttaa valmiiksi ja työntekijöiden nimeksi voidaan muuttaa Sauli Niinisto. 
-Molempien ryhmien listaaminen onnistuu ja verkkosovelluksessa on helppo liikkua pienen valikon avulla.
-
+Tällä hetkellä sovelluksessa voidaan tarkastella lisättyjä työaikoja sekä lisättyjä projekteja. Sovellukseen myös pystytään kirjautumaan sisään ja sieltä pystytään kirjautua ulos. Mikäli sisään 
+on kirjauduttu voidaan projekteja lisätä ja työaikoja lisätä. Projektit voidaan myös merkitä valmiiksi.
 ## Ongelmia työssä
-Saan paikallisesti tällä hetkelle sen mitä olen tehnyt toimimaan, mutta homma ei suostu siirtymään Herokuun. Virhe laitettu tiedostoon [herokuvirhe.txt](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/herokuvirhe.txt)
-Olen kokeillut poistaa kyseisen rivin requirments.txt tiedostostosta, mutta sama viesti tulee silti
+Yritin lisätä projekteille mahdollisuutta poistaa koko projekti. Tässä en kuitenkaan onnistunut koska engine antaa ROLLBACK tulokset. Hieman tätä tutkin ja päättelin, että voiko tämä johtua siitä, että
+projektipäällikkö on liitetty suoraan projektiin kirjautumisen perusteella. Pitäisikö siis pitää tällä jonkin laista liitostaulua?
 
 ## Linkki sovellukseen Herokussa
 [Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/)
+Testitunnus:
+käyttäjä:sauli
+salasana:niinisto
 
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
