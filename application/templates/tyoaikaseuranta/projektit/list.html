@@ -19,6 +19,11 @@
           <input type="submit" value="Aseta valmiiksi!"/>
         </form>
       </td>
+      <td>
+        <form method"POST" action="{{ url_for('projektit_poista', projekti_id=projektit.id) }}">
+          <input type="submit" value="Poista projekti"/>
+        </form>
+      </td>
     </tr>
     {% endfor %}
   </table>
