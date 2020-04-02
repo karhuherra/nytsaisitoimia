@@ -25,5 +25,5 @@ salasana:niinisto
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
 
 ### linkki tietokantakaavioon
-[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.PNG)
+[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/85aa0012.png)
 

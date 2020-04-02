@@ -1,8 +1,23 @@
 {% extends "layout.html" %}
 
 {% block body %}
-  <p>
-    tyoaikaseuranta
-  </p>
+
+
+{% if monta_tyoaikaa is defined %}
+<p>
+  Tehneet edes jotain hommia:
+</p>
+
+<ul>
+  {% for user in monta_tyoaikaa %}
+  <li>
+    {{user.id}} {{user.name}}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endif %}
+
+
 {% endblock %}
 

@@ -43,7 +43,6 @@ def projektit_create():
         return render_template("tyoaikaseuranta/projektit/new.html", form = form)
 
     p = projektit(form.name.data)
-    p.account_id = current_user.id
 
     db.session().add(p)
     db.session().commit()

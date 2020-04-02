@@ -1,4 +1,5 @@
 from application import db
+from sqlalchemy.sql import text
 
 class User(db.Model):
 
@@ -12,8 +13,6 @@ class User(db.Model):
     name = db.Column(db.String(144), nullable=False)
     username = db.Column(db.String(144), nullable=False)
     password = db.Column(db.String(144), nullable=False)
-
-    projektit = db.relationship("projektit", backref='account', lazy=True )
 
     def __init__(self, name, username, password):
         self.name = name
@@ -31,3 +30,18 @@ class User(db.Model):
 
     def is_authenticated(self):
         return True
+
+    @staticmethod
+    def kuinka_monta_tyoaikaa():
+        stmt = text("SELECT Account.id, Account.name FROM Account"
+                    " LEFT JOIN tyoajat ON tyoajat.account_id = Account.id"
+                    " GROUP BY Account.id"
+                    " HAVING COUNT(tyoajat.id) > 1")
+
+        res = db.engine.execute(stmt)
+
+        response = []
+        for row in res:
+            response.append({"id":row[0], "name":row[1]})
+
+        return response
