@@ -22,7 +22,7 @@
               <a class="nav-link" href="{{ url_for('tyoajat_form') }} ">Lisää työaika</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('tyoajat_index') }} ">Listaa projektit</a>
+              <a class="nav-link" href="{{ url_for('projektit_index') }} ">Listaa projektit</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('projektit_form') }} ">Lisää projekti</a>
@@ -34,6 +34,12 @@
 	    {% else %}
 	    <a href="{{ url_for('auth_login') }}">Login</a>
 	    {% endif %}
+          </div>
+          <div class="form-inline mt-2 mt-md-0">
+            <a> ----  </a>
+          </div>
+          <div class="form-inline mt-2 mt-md-0">
+            <a href="{{ url_for('auth_form') }}">Sign up</a>
           </div>
 	</div>
       </nav>

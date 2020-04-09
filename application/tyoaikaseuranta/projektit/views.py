@@ -24,13 +24,14 @@ def projektit_aseta_valmiiksi(projekti_id):
   
     return redirect(url_for("projektit_index"))
 
-@app.route("/tyoaikaseuranta/projektit/<projekti_id>/", methods=["POST", "GET"])
+@app.route("/tyoaikaseuranta/projektit/<projekti_id>/poista", methods=["POST","GET"])
 @login_required
 def projektit_poista(projekti_id):
 
-    db.engine.execute("DELETE FROM projektit WHERE id=projekti_id")
+    p = projektit.query.get(projekti_id)
+    db.session().delete(p)
+    db.session().commit()
 
-  
     return redirect(url_for("projektit_index"))
 
 

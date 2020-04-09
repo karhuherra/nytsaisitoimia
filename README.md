@@ -6,20 +6,12 @@ rivimiehenä. Henkilö voi lisätä itselleen työaikaa ja katsella omaa mennytt
 mahdollisuus nähdä siitä kaikki.
 
 # Työ tällä hetkellä
-Tällä hetkellä sovelluksessa voidaan tarkastella lisättyjä työaikoja sekä lisättyjä projekteja. Sovellukseen myös pystytään kirjautumaan sisään ja sieltä pystytään kirjautua ulos. Mikäli sisään 
-on kirjauduttu voidaan projekteja lisätä ja työaikoja lisätä. Projektit voidaan myös merkitä valmiiksi.Yhteenveto kysely antaa näkyviin kaikki työntekjät joilla on vähintään yksi työaika tietokannassa.
-## Ongelmia työssä
-Yritin lisätä projekteille mahdollisuutta poistaa koko projekti. Tässä en kuitenkaan onnistunut koska engine antaa ROLLBACK tulokset. Hieman tätä tutkin ja päättelin, että voiko tämä johtua siitä, että
-projektipäällikkö on liitetty suoraan projektiin kirjautumisen perusteella. Pitäisikö siis pitää tällä jonkin laista liitostaulua?
+Tällä hetkellä sovelluksessa voidaan tarkastella lisättyjä työaikoja sekä lisättyjä projekteja. Sovellukseen myös pystytään kirjautumaan sisään ja sieltä pystytään kirjautua ulos. 
+Rekisteröitymismahdollisuus on myös luotut. Mikäli sisään on kirjauduttu voidaan projekteja lisätä ja työaikoja lisätä. Projektit voidaan myös merkitä valmiiksi.Yhteenvetokysely antaa 
+näkyviin kaikki työntekjät joilla on vähintään yksi työaika tietokannassa. Projekteja voi myös poistaa sovelluksesta. 
 
 ## Linkki sovellukseen Herokussa
-[Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/)
-
-Testitunnus:
-
-käyttäjä:sauli
-
-salasana:niinisto
+[Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/
 
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
