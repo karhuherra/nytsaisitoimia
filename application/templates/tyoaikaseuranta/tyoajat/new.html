@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "tyoaikaseuranta/projektit/list.html" %}
 
 {% block body %}
 <form method="POST" action="{{ url_for('tyoajat_create') }}">
@@ -11,6 +11,16 @@
         {{ form.tyoaika }}
       </td>
       <td>
+    </tr>
+    <tr>
+      <td>
+       {{ form.projekti_id.label }}
+      </td>
+      <td>
+        {{ form.projekti_id }}
+      </td>
+      <td>
+    </tr>
         <ul>
           {% for error in form.tyoaika.errors %}
             <li>{{ error }}</li>

@@ -5,11 +5,20 @@
     <tr>
       <th>tyoaika</th>
       <th>tyontekija</th>
+      <th>projekti</th>
+      <th>kirjausaika</th>
     </tr>
     {% for tyoajat in tyoajat %}
     <tr>
       <td>{{ tyoajat.tyoaika }}</td>
       <td>{{ tyoajat.account_id }}</td>
+      <td>{{ tyoajat.projekti_id }}</td>
+      <td>{{ tyoajat.date_created }}</td>
+      <td>
+        <form method"POST" action="{{ url_for('tyoajat_poista', tyoaika_id=tyoajat.id) }}">
+          <input type="submit" value="Poista työaika"/>
+        </form>
+      </td>
     </tr>
     {% endfor %}
   </table>

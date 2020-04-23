@@ -32,11 +32,11 @@ class User(db.Model):
         return True
 
     @staticmethod
-    def kuinka_monta_tyoaikaa():
+    def monta_tyoaikaa():
         stmt = text("SELECT Account.id, Account.name FROM Account"
                     " LEFT JOIN tyoajat ON tyoajat.account_id = Account.id"
                     " GROUP BY Account.id"
-                    " HAVING COUNT(tyoajat.id) > 1")
+                    " HAVING COUNT(tyoajat.id) > 0")
 
         res = db.engine.execute(stmt)
 

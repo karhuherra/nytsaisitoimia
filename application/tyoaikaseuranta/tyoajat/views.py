@@ -21,9 +21,20 @@ def tyoajat_create():
     if not form.validate():
         return render_template("tyoaikaseuranta/tyoajat/new.html", form = form)
 
-    t = tyoajat(form.tyoaika.data)
+    t = tyoajat(form.tyoaika.data, form.projekti_id.data)
     t.account_id = current_user.id
 
     db.session().add(t)
     db.session().commit()
     return redirect(url_for("tyoajat_index"))
+
+@app.route("/tyoaikaseuranta/projektit/<tyoaika_id>/poista", methods=["POST","GET"])
+@login_required
+def tyoajat_poista(tyoaika_id):
+
+    t = tyoajat.query.get(tyoaika_id)
+    db.session().delete(t)
+    db.session().commit()
+
+    return redirect(url_for("tyoajat_index"))
+
