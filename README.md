@@ -26,6 +26,8 @@ Sovelluksesta puuttuvat vielä pari yhteenvetokyselyä, jotka saadaan toivottava
 
 ### linkit tietokannat dokumentaatioon
 [tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.png)
+
 [foreign keys](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/foreign%20keys.png)
+
 [scheema](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/scheemat)
 
