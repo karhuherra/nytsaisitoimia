@@ -3,10 +3,12 @@
 1. Minä käyttäjänä haluan kirjauta palveluun ja se onnistuu yläreunassa olevalla kirjaudu linkillä.
 2. Minä käyttäjänä haluan kirjauta palvelusta ulos ja se onnistuu yläreunassa olevalla linkillä.
 3. Voin rekisteröityä sovellukseen yläkulman sign up painikkeesta.
-4. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta.
-5. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta.
+4. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
+5. Kaikkien sovellukseen lisättyjen työaikojen tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
 6. Kirjautuneen voin lisätä itselleni työaikaa tunteina (desimaali, vähintään 1h).
-7. Kirjautuneena voin lisätä sovellukseen projekteja.
+7. Kirjautuneena voin lisätä sovellukseen projekteja, joiden projektipäälliköksi asetun automaattisesti.
 8. Voin asettaa projektit valmiiksi kun olen kirjautuneena sovellukseen.
 9. Voin poistaa projektin kun olen kirjautuneena
 10. Yläreunassa olevalla linkkivalikolla voin liikkua eri ominaisuuksien välillä helposti.
+11. Voin poistaa työaikoja kirjautuneena.
+12. Voin tarkastella etusivulta kuinka monella henkilöllä on vähintään yksi työaikamerkintä.
