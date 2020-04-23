@@ -29,5 +29,5 @@ Sovelluksesta puuttuvat vielä pari yhteenvetokyselyä, jotka saadaan toivottava
 
 [foreign keys](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/foreign%20keys.png)
 
-[scheema](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/scheemat)
+[skeema](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/skeema)
 
