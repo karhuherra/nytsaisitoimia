@@ -24,6 +24,8 @@ Sovelluksesta puuttuvat vielä pari yhteenvetokyselyä, jotka saadaan toivottava
 ### Käyttäjätarinat
 [käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
 
-### linkki tietokantakaavioon
-[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/85aa0012.png)
+### linkit tietokannat dokumentaatioon
+[tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.png)
+[foreign keys](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/foreign%20keys.png)
+[scheema](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/scheemat)
 
