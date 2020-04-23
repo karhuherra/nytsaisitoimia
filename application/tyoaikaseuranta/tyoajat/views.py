@@ -28,7 +28,7 @@ def tyoajat_create():
     db.session().commit()
     return redirect(url_for("tyoajat_index"))
 
-@app.route("/tyoaikaseuranta/projektit/<tyoaika_id>/poista", methods=["POST","GET"])
+@app.route("/tyoaikaseuranta/tyoajat/<tyoaika_id>/poista", methods=["POST","GET"])
 @login_required
 def tyoajat_poista(tyoaika_id):
 

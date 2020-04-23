@@ -24,12 +24,6 @@
           <input type="submit" value="Poista projekti"/>
         </form>
       </td>
-      <td>
-        <form method"POST" action="{{ url_for('projektit_kaikki', projekti_id=projektit.id) }}">
-          <input type="submit" value="Näytä yhteenveto"/>
-        </form>
-      </td>
-
     </tr>
     {% endfor %}
   </table>
