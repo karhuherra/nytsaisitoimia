@@ -1,4 +1,4 @@
-#Userstory
+# Käyttäjätarinat
 
 1. Minä käyttäjänä haluan kirjauta palveluun ja se onnistuu yläreunassa olevalla kirjaudu linkillä.
 SQL:
@@ -54,4 +54,3 @@ SQL:
 SELECT account.id AS account_id, account.date_created AS account_date_created, account.date_modified AS account_date_modified, account.name AS account_name, account.username AS account_username, account.password AS account_password 
 FROM account 
 WHERE account.id = ?
-

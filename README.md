@@ -17,7 +17,7 @@ sitä selaimella osoitteessa [localhost:5000/](localhost:5000/) .
 [käyttöohjeet](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/kayttoohjeet.md)
 
 ### Käyttäjätarinat
-[käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory)
+[käyttäjätarinat](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/userstory.md)
 
 ### linkkejä tietokannan dokumentaatioon
 [tietokantakaavio](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/tietokantakaavio.png)
