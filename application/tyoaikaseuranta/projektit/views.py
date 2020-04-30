@@ -6,7 +6,7 @@ from application.tyoaikaseuranta.projektit.forms import ProjektiForm
 
 @app.route("/tyoaikaseuranta/projektit/", methods=["GET"])
 def projektit_index():
-    return render_template("tyoaikaseuranta/projektit/list.html", projektit = projektit.query.all())
+    return render_template("tyoaikaseuranta/projektit/list.html", projektit = projektit.query.all(), monta_hetkea=projektit.monta_hetkea())
 
 @app.route("/tyoaikaseuranta/projektit/new/")
 @login_required
@@ -48,4 +48,5 @@ def projektit_create():
 
     db.session().add(p)
     db.session().commit()
+
     return redirect(url_for("projektit_index"))

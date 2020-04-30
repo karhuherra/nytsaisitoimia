@@ -27,5 +27,30 @@
     </tr>
     {% endfor %}
   </table>
+<p>
+
+</p>
+<p>
+Jos poistat projektin muista käydä poistamassa myös sitä koskevat työajat.
+</p>
+<p>
+
+</p>
+{% if monta_hetkea is defined %}
+<p>
+  Projektien tunnit:
+</p>
+
+<ul>
+  {% for tyoajat in  monta_hetkea %}
+  <li>
+    id: {{tyoajat.id}}, tunnit yhteensä: {{tyoajat.tyoaika}}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+
 {% endblock %}
+
 

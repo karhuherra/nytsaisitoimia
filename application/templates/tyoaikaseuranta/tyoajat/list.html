@@ -21,6 +21,20 @@
       </td>
     </tr>
     {% endfor %}
-  </table>
+  </table> 
+{% if monta_tuntia is defined %}
+<p>
+  Työntekijöiden tunnit:
+</p>
+
+<ul>
+  {% for tyoajat in  monta_tuntia %}
+  <li>
+    id: {{tyoajat.id}}, tunnit yhteensä: {{tyoajat.tyoaika}}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 {% endblock %}
 

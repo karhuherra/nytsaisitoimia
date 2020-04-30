@@ -6,7 +6,7 @@ from application.tyoaikaseuranta.tyoajat.forms import TyoaikaForm
 
 @app.route("/tyoaikaseuranta/tyoajat/", methods=["GET"])
 def tyoajat_index():
-    return render_template("tyoaikaseuranta/tyoajat/list.html", tyoajat = tyoajat.query.all())
+    return render_template("tyoaikaseuranta/tyoajat/list.html", tyoajat = tyoajat.query.all(), monta_tuntia=tyoajat.monta_tuntia())
 
 @app.route("/tyoaikaseuranta/tyoajat/new/")
 @login_required
