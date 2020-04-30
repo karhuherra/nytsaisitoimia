@@ -7,6 +7,7 @@ Tässä harjoitustyössä luodaan sovellus, jolla voidaan pitää kirjaa projekt
 Työ on saatu valmiiksi. Sen ominaisuudet jäivät hieman tavoitellusta, mutta sovellusta pystyy kuitenkin käyttämään. Sovellusta voi käyttää Herokussa helposti allaolevasta linkistä. Vaihtoehtoisesti voit 
 käyttää sovellusta paikallisesti lataamalla sen koneellesi ja ajamalla komentorivillä tyoaikaseuranta nimisessä hakemistossa komennon python3 run.py. Tämän jälkeen sovellus käynnistyy ja voit käyttää 
 sitä selaimella osoitteessa [localhost:5000/](localhost:5000/) . 
+
 ## Linkki sovellukseen Herokussa
 
 [Heroku](https://tsoha-tyoaikaseuranta.herokuapp.com/)
@@ -25,3 +26,4 @@ sitä selaimella osoitteessa [localhost:5000/](localhost:5000/) .
 
 [skeema](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/skeema)
 
+[Puutteet](https://github.com/karhuherra/nytsaisitoimia/blob/master/documentation/puutteet.md)
