@@ -1,6 +1,6 @@
 # Käyttäjätarinat
 
-1. Minä käyttäjänä haluan kirjauta palveluun ja se onnistuu yläreunassa olevalla kirjaudu linkillä.
+#### 1. Minä käyttäjänä haluan kirjauta palveluun ja se onnistuu yläreunassa olevalla kirjaudu linkillä.
 
 SQL:
 
@@ -12,7 +12,7 @@ WHERE account.username = ? AND account.password = ?
 
 
 
-2. Minä käyttäjänä haluan kirjauta palvelusta ulos ja se onnistuu yläreunassa olevalla linkillä.
+#### 2. Minä käyttäjänä haluan kirjauta palvelusta ulos ja se onnistuu yläreunassa olevalla linkillä.
 
 SQL:
 
@@ -21,7 +21,7 @@ FROM account
 
 
 
-3. Voin rekisteröityä sovellukseen yläkulman sign up painikkeesta.
+#### 3. Voin rekisteröityä sovellukseen yläkulman sign up painikkeesta.
 
 SQL:
 
@@ -29,7 +29,7 @@ INSERT INTO account (date_created, date_modified, name, username, password) VALU
 
 
 
-4. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
+#### 4. Kaikkien sovellukseen lisättyjen projektien tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
 
 SQL:
 
@@ -40,7 +40,7 @@ SELECT projekti_id, SUM(tyoaika) FROM tyoajat GROUP BY projekti_id
 
 
 
-5. Kaikkien sovellukseen lisättyjen työaikojen tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
+#### 5. Kaikkien sovellukseen lisättyjen työaikojen tarkastelu onnistuu minulta kirjautumatta tai kirjautuneena.
 
 SQL:
 
@@ -50,7 +50,7 @@ SELECT account_id, SUM(tyoaika) FROM tyoajat GROUP BY account_id
 
 
 
-6. Kirjautuneen voin lisätä itselleni työaikaa tunteina (desimaali, vähintään 1h).
+#### 6. Kirjautuneen voin lisätä itselleni työaikaa tunteina (desimaali, vähintään 1h).
 
 SQL:
 
@@ -58,7 +58,7 @@ INSERT INTO tyoajat (account_id, tyoaika, projekti_id, date_created) VALUES (?, 
 
 
 
-7. Kirjautuneena voin lisätä sovellukseen projekteja, joiden projektipäälliköksi asetun automaattisesti.
+#### 7. Kirjautuneena voin lisätä sovellukseen projekteja, joiden projektipäälliköksi asetun automaattisesti.
 
 SQL:
 
@@ -66,7 +66,7 @@ INSERT INTO projektit (nimi, valmis, projektipaallikko) VALUES (?, ?, ?)
 
 
 
-8. Voin asettaa projektit valmiiksi kun olen kirjautuneena sovellukseen.
+#### 8. Voin asettaa projektit valmiiksi kun olen kirjautuneena sovellukseen.
 
 SQL:
 
@@ -74,7 +74,7 @@ UPDATE projektit SET valmis=? WHERE projektit.id = ?
 
 
 
-9. Voin poistaa projektin kun olen kirjautuneena
+#### 9. Voin poistaa projektin kun olen kirjautuneena
 
 SQL:
 
@@ -82,11 +82,11 @@ DELETE FROM projektit WHERE projektit.id = ?
 
 
 
-10. Yläreunassa olevalla linkkivalikolla voin liikkua eri ominaisuuksien välillä helposti.
+#### 10. Yläreunassa olevalla linkkivalikolla voin liikkua eri ominaisuuksien välillä helposti.
 
 
 
-11. Voin poistaa työaikoja kirjautuneena.
+#### 11. Voin poistaa työaikoja kirjautuneena.
 
 SQL:
 
@@ -94,7 +94,7 @@ DELETE FROM tyoajat WHERE tyoajat.id = ?
 
 
 
-12. Voin tarkastella etusivulta kuinka monella henkilöllä on vähintään yksi työaikamerkintä.
+#### 12. Voin tarkastella etusivulta kuinka monella henkilöllä on vähintään yksi työaikamerkintä.
 
 SQL:
 
